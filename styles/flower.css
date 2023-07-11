@@ -56,11 +56,12 @@
     margin-top: 178px;
 }
 
-.contsiner{
+.contsiner {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .text-estable-continer {
     width: 594px;
 }
@@ -73,4 +74,76 @@
     font-weight: 400;
     line-height: 30px;
 
+}
+
+.flower-contsiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+.flower-content {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower-content_2 {
+    width: 464px;
+    height: 538px;
+    /* border-radius: 300px 300px 0px 0px; */
+    border-top-right-radius: 300px;
+    border-top-left-radius: 300px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-content_3 {
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.f1-container {
+    width: 310px;
+    height: 428px;
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.f2-container {
+    width: 370px;
+    height: 370px;
+    margin-top: 120px;
+    margin-left: 40px;
+}
+
+.f3-container {
+    width: 314px;
+    height: 471px;
+    margin-top: 68px;
+    margin-left: 40px;
+}
+
+.text-pink {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline
+}
+
+.same-day {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
 }
